@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
   }
 }
